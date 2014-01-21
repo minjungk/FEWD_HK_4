@@ -1,2 +1,1 @@
-My first web project
-git
+My first web project.. improved!
