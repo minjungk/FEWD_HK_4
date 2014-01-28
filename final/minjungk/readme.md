@@ -1,5 +1,2 @@
-My first web project.. improved!
-
-testing 
-
-testing my own
+My first web project...
+first session has endedP
