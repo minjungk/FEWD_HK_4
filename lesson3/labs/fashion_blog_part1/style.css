@@ -1,0 +1,82 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: black;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px 50px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+h1 a:link,
+h2 a:link,
+h4 a:link {
+	text-decoration: none;
+}
+
+h1 a {
+	color: #ff0000;
+	font-size: 60px;
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h2 a {
+	color: black;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: lighter;
+	color: #cccccc;
+	margin-bottom: 5px;
+}
+
+h4 a {
+	float: right;
+	color: #ff0000;
+	font-weight: bolder;
+	/*padding: 20px 0px 20px 0px;*/
+}
+
+nav a {
+	font-size: 25px;
+	color: #d9d9d9;
+	margin: 0px 20px 60px 0px;
+	float: left;
+}
+
+.headline {
+	font-size: 40px;
+	color: black;
+	margin: 5px 0px 20px 0px;
+}
+
+.firstLetter { 
+	float: left; 
+	color: #cecece; 
+	font-size: 100px; 
+	line-height: 100px; 
+	padding-top: 0px; 
+	padding-right: 10px; 
+	padding-left: 0px; 
+}
+
+hr {
+	margin: 80px 0px 50px 0px; 
+}
+
+/*a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}*/
+
