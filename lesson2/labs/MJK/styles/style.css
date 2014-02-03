@@ -1,5 +1,6 @@
 body {
 	background-color: grey;
+	color: #cccccc;
 }
 
 p {
@@ -21,23 +22,24 @@ h1 {
 }
 
 h2 {
-	color: orange;
+	color: #f7dc0e;
 	font-size: 30px;
 }
 
 h3 {
-	color:orange;
+	color: #f7dc0e;
 	font-size: 18px;
+	/*text-align: left;*/
 }
-h4 {
+/*h4 {
 	color:#cccccc;
 	font-size: 12px;
-}
+}*/
 
 a {
 	font-family: verdana;
 	font-weight: bold;
-	color:#33dd55;
+	color: #0b55c9;
 }
 
 nav ul {
@@ -45,14 +47,18 @@ nav ul {
 	margin: 0 auto;
 	width: 220px;
 	overflow: hidden;
-
 }
 
-li {
+/*li {
 	list-style: none;
 	float: left;
 	margin:0 10px;
-}
+}*/
+
+/*h3 ul li {
+	float: left;
+	margin:0 10px;
+}*/
 
 img {
 	float: right;
@@ -66,6 +72,7 @@ footer ul {
 	width: 420px;
 	overflow: hidden;
 }
+
 p {
 	word-wrap: break-word;
 }
