@@ -1,13 +1,16 @@
 body {
 	font-family: "Lato", sans-serif;
 	color: black;
-}
-
-#container {
 	width: 900px;
 	margin: 0 auto;
 	padding: 50px 50px;
 }
+
+/*#container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px 50px;
+}*/
 
 p {
 	font-size: 18px;
@@ -64,7 +67,14 @@ footer a {
 	color: #ff0000;
 	font-size: 18px;
 	float: left;
-	margin: 0px 20px 60px 0px;
+	padding: 0 10px;
+	/*margin: 0px 20px 60px 0px;*/
+	border-right: solid 1px #ff0000;
+}
+
+/*to get rid of the last border right*/
+footer li:last-child a {
+	border-right: 0;
 }
 
 .headline {
@@ -94,4 +104,13 @@ hr {
 {
     text-decoration: none;
 }*/
-
+/* Clear fix hack
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+*/
