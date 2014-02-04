@@ -16,7 +16,8 @@ p {
 
 h1 a:link,
 h2 a:link,
-h4 a:link {
+h4 a:link, 
+footer a {
 	text-decoration: none;
 }
 
@@ -55,6 +56,17 @@ nav a {
 	float: left;
 }
 
+li {
+	list-style: none;
+}
+
+footer a {
+	color: #ff0000;
+	font-size: 18px;
+	float: left;
+	margin: 0px 20px 60px 0px;
+}
+
 .headline {
 	font-size: 40px;
 	color: black;
@@ -75,6 +87,9 @@ hr {
 	margin: 80px 0px 50px 0px; 
 }
 
+/*footer a {
+	text-decoration: none;
+}*/
 /*a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
