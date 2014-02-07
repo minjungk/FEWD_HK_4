@@ -1,0 +1,194 @@
+/* 
+Project Name: Fashion blog part2
+Client: Your Client
+Author: MinJung Kim
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+/*centering*/
+/*.center {
+	position: absolute;
+	left: 50%;
+  	top: 50%;
+}*/
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+/*template ex
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+*/
+body {
+	font-family: "Lato", sans-serif;
+	color: #000;
+	/*width: 900px;*/
+	/*margin: 20px auto;*/
+	/*padding: 50px 50px;*/
+}
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 1000px;
+	margin: auto;
+}
+/*header*/
+h1 a {
+	color: #ff0000;
+	font-size: 60px;
+	font-weight: lighter;
+	float: left;
+	margin-right: 20px;
+}
+header h2 {
+	font-size: 30px;
+	color: #c7c7c7;
+}
+
+nav a {
+	font-size: 20px;
+	background-color: #000;
+	color: #d9d9d9;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+/*articles*/
+#main {
+	float: left;
+	width: 70%;
+}
+ {
+	width: 70%;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h2 a {
+	color: black;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: lighter;
+	color: #cccccc;
+	margin-bottom: 5px;
+}
+h4 {
+	color: #ff0000;
+	font-weight: bolder;
+}
+h4 a {
+	float: right;
+	color: #ff0000;
+	font-weight: bolder;
+}
+
+/*aside style*/
+aside {
+	float: right;
+	width: 30%;
+}
+
+aside ul {
+	color: #cccccc;
+}
+
+aside li span {
+	color: #ff0000;
+}
+
+/*footer style*/
+footer li {
+	list-style: none;
+}
+
+footer a {
+	color: #ff0000;
+	font-size: 18px;
+	float: left;
+	padding: 0 10px;
+	border-right: solid 1px #cccccc;
+}
+
+/*to get rid of the last border right*/
+footer li:last-child a {
+	border-right: 0;
+}
+
+footer ul {
+	padding-left: 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.headline {
+	font-size: 40px;
+	color: black;
+}
+
+.firstLetter { 
+	float: left; 
+	color: #cecece; 
+	font-size: 100px; 
+	line-height: 100px; 
+	padding-top: 0px; 
+	padding-right: 10px; 
+	padding-left: 0px; 
+}
+
+hr {
+	margin: 20px; 
+}
