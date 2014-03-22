@@ -1,0 +1,67 @@
+body {
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	/*margin: 0px auto;*/
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.5em;
+}
+#mainWrapper {
+    text-align: center;
+}
+
+#cardHolder {
+	width: 430px;
+    margin:0 auto;
+    padding: 30px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards{
+     height:96px;
+     width:71px;
+     background-image:url("./images/back-of-card.png");
+     /*background-position: -877px -1px*/
+     cursor:pointer;
+     margin:10px;
+     float: left;
+}
+.selected, .matched {
+	background-image: url("./images/classic-playing-cards.png");
+}
+.queen.selected, .queen.matched {
+	background-position: -804px -1px;
+}
+
+.king.selected, .king.matched {
+	background-position: -877px -1px;
+}
+.cards.miss {
+    background-image:("./images/back-of-card.png");
+}
+/*#btnHolder {
+	margin: 0px auto;
+	display: block;
+}*/
+
+/*box hack and clearfix*/
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}

@@ -1,0 +1,33 @@
+ul, li, a {
+	text-decoration: none;
+	list-style: none;
+}
+
+ul {
+	text-align: left;
+	background-color: black;
+}
+
+li {
+	float: left;
+	/*text-decoration: none;*/
+	padding: 20px 20px;
+}
+
+ul li a {
+	color: white;
+}
+
+#mainContent {
+	margin: 0 auto;
+}
+
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}

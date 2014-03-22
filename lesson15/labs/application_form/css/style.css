@@ -61,12 +61,19 @@ body {
 #container {
 	width: 960px;
 	margin: auto;
+     border: 1px solid grey;
+     border-radius: 5px;
 }
 
-header {
-
+header h1 {
+     text-align: center;
+     font-size: 2.5em;
+     font-weight: lighter;
+     background: -webkit-linear-gradient(top, #7c7c7c, #d6d6d6);
 }
-
+form{
+     padding: 2%;
+}
 footer {
 
 }

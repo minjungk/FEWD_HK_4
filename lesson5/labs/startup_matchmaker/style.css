@@ -132,6 +132,7 @@ h3 {
 
 #mainTask {
      background-image: url("images/coworking.jpg");
+     background-size: cover;
      height: 500px;
      position: relative;
 }

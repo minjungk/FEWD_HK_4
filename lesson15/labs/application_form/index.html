@@ -14,11 +14,76 @@
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	</head>
 	<body>
-		<div id="container">
+		<div id="container">  
 			<header>
-				
-			</header> 	
-			
+			<h1>Course Application</h1>	
+			</header>
+			<form id="contactForm" class="rounded" method="post" action="">
+				<!-- your info -->
+				<h3>Your contact info</h3>
+				<div class="field">
+					<label for="fname">Your name</label>
+					<input type="text" class="input" name="fname" id="firstName" placeholder="First" />
+					<input type="text" class="input" name="lname" id="lastName" placeholder="Last"/>
+				</div>
+
+				<div class="field">
+					<label for="countryNum">Phone number</label>
+					<input type="text" class="input" name="countryNum" id="countryNum"> -
+					<input type="text" class="input" name="areaNum" id="areaNum" maxlength="4"/> -
+					<input type="text" class="input" name="lastNum" id="lastNum" maxlength="4"/>
+				</div>
+
+				<div class="field">
+					<label for="street">Address</label>
+					<input type="text" class="input block" name="street" id="street" placeholder="Street Address">
+					<input type="text" class="input block" name="address2" id="address2" placeholder="Address Line 2"/>
+					<input type="text" class="input" name="city" id="city" placeholder="City"/>
+					<input type="text" class="input" name="state" id="state" placeholder="State"/>
+					<input type="text" class="input" name="postal" id="postal" placeholder="Postal Code"/>
+				</div>
+
+				<!-- skills and interests -->
+				<h3>Skills & Interests</h3>
+				<div class="field">
+					<label for="course">Course</label>
+					<select>
+					  <option>Select one</option>
+					  <optgroup label="Web Development">
+					    <option value="Front-end">Front-end</option>
+					    <option value="Back-end">Back-end</option>
+					  </optgroup>
+					  <optgroup label="Design">
+					    <option value="Visual Design">Visual Design</option>
+					    <option value="User Experience">User Experience</option>
+					  </optgroup>
+					</select>
+				</div>
+
+				<div class="field">
+					<label for="message">Past Experience</label>
+			        <textarea class="input textarea" name="message" id="message"></textarea>
+				</div>
+				<h3>Anything Else?</h3>
+				<div class="field">
+					<label for="message">Past Experience</label>
+			        <textarea class="input textarea" name="message" id="message"></textarea>
+				</div>
+
+				<div class="field">
+					<label for="experience">Referral</label>
+					<select name="experience">
+						<option value="None">None</option>
+						<option value="Friend">Friend</option>
+						<option value="Instructor">Instructor</option>
+						<option value="Online">Online</option>
+					</select>
+				</div>
+				<div class="field">
+					<label for="comments">Comments</label>
+					<textarea class="input textarea" name="comments" id="comments"></textarea>
+				</div>
+			</form> 				
 			<footer>
 			
 			</footer>

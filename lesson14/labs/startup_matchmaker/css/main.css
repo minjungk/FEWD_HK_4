@@ -2,7 +2,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
 	line-height: 1.5;
-	cursor: default;
+	cursor: default; 
 }
 
 .wrapper {
@@ -184,4 +184,50 @@ footer {
 	background: black;
 	color: white;
 	padding: 2% 3%;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+	#page-header h1 {
+	float: none;
+	} 
+	#page-header nav {
+	float: none;
+	} 
+	#page-header nav li {
+	float: none;
+	display: none;
+	}
+	/*#page-header nav ul{
+		position: relative;
+	}*/
+
+	/*#page-header nav ul li.firstNavItem {
+		padding-top: 48px;
+	}*/
+
+	#page-header nav ul li.push-button {
+		width: 60px;
+		margin-top: -32px;
+		margin-right: 0px;
+		position: absolute;
+		right:0px; 
+		display: block;
+	}
+
+	.push-button .line {
+		border: solid yellow 2px;
+		margin: 4px 10px;
+	}
+
+}
+
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }

@@ -1,0 +1,92 @@
+/*
+Project Name: The Divided Time
+Client: Your Client
+Author: MinJung Kim
+Developer @GA in NYC
+*/
+
+header, h1 {
+	margin: 0px;
+	/*padding: 0px;*/
+}
+
+li {
+	float: left;
+	list-style: none;
+	padding: 0px 20px;
+	border-right: solid 1px;
+	vertical-align: middle;
+	font-size: 1.2em;
+}
+
+nav li:last-child {
+	border-right: 0;
+}
+
+header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid;
+}
+
+nav {
+	/*margin: 10px 0px;*/
+	/*padding-bottom: 15px;*/
+	border-top: solid 2px;
+	/*border-bottom: solid 1px;*/
+	margin: 0;
+}
+nav ul li a {
+	padding: 10px 0;
+}
+
+#slidedown {
+	color: white;
+	background-color: grey;
+}
+
+.active {
+	background-color: grey;
+}
+header h1 {
+	text-align: center;
+	font-size: 3em;
+	letter-spacing: 0.05em;
+	text-shadow: 1px 1px white, 1.5px 1.5px 1.5px grey;
+}
+
+.article h1 {
+	margin: 20px 0;
+	text-align: left;
+}
+
+.section {
+	float: left;
+	padding: 10px 10px;
+}
+.sliderHolder {
+	width: 100%;
+}
+
+/* Clear fix hack ******************/
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}

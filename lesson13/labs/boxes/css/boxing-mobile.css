@@ -6,3 +6,64 @@
   line-height: 0;
   height: 0;
 }
+
+header nav ul {
+	padding: 0px;
+}
+
+ul li {
+	width: 15%;
+	height: 30px;
+	float: left;
+	padding: 0px;
+	margin-right: 10px;
+	vertical-align: center; 
+	border: solid 2px black;
+}
+
+.hidden {
+	display: none;
+	float: right;
+	width: 15%;
+	height: 90px;
+}
+
+.line {
+	border-bottom: solid 1px black; 
+	margin: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+footer {
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: solid 1px black;
+}
+
+.red {
+	background-color: red;
+	float: left;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.green {
+	background-color: green;
+	width: 96%;
+	height: 100px;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 20px;
+}
+
+.blue {
+	background-color: blue;
+	width: 96%;
+	height: 100px;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 20px;
+}

@@ -60,6 +60,8 @@ body {
 body {
 	font-family: "Lato", sans-serif;
 	color: #000;
+	font-weight: 400;
+	line-height: 1.5em;
 	/*width: 900px;*/
 	/*margin: 20px auto;*/
 	/*padding: 50px 50px;*/
@@ -74,17 +76,24 @@ body {
 	width: 960px;
 	margin: auto;
 }
+
+h1, h2, h3, a {
+	font-weight: 300;
+	padding: 0px;
+	/*margin: 0px;*/
+}
 /*header*/
 h1 a {
 	color: #ff0000;
 	font-size: 60px;
-	font-weight: lighter;
 	float: left;
 	margin-right: 20px;
+	font-weight: 300;
 }
 header h2 {
 	font-size: 30px;
 	color: #c7c7c7;
+	font-weight: 300;
 }
 
 nav a {
@@ -120,6 +129,15 @@ article > img {
 	max-width: 100%;
 }
 
+aside > img {
+	max-width: 100%;
+	/*border-bottom: solid 1px #ccc;*/
+}
+
+article {
+	border-bottom: solid 1px #ccc;
+}
+
 h2 {
 	font-size: 30px;
 }
@@ -130,18 +148,21 @@ h2 a {
 
 h3 {
 	font-size: 40px;
-	font-weight: lighter;
 	color: #cccccc;
 	margin-bottom: 5px;
 }
 h4 {
+	text-align: right;
 	color: #ff0000;
-	font-weight: bolder;
+	font-weight: 900;
 }
 h4 a {
-	float: right;
 	color: #ff0000;
-	font-weight: bolder;
+	font-weight: 900;
+}
+
+aside > h4 {
+	text-align: left;
 }
 
 /*aside style*/
@@ -178,7 +199,11 @@ footer li:last-child a {
 
 footer ul {
 	padding-left: 0;
+	clear: both;
 }
+/*footer p {
+	float: left;
+}*/
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -203,6 +228,7 @@ a:hover, a:visited, a:link, a:active
 	padding-top: 0px;
 	padding-right: 10px;
 	padding-left: 0px;
+	font-weight: 300;
 }
 
 hr {

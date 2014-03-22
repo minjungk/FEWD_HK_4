@@ -19,7 +19,7 @@ $(document).ready(function(){
 		} else {
 			$('#slide-down').slideUp(150).removeClass('open');
 		}
-	});
+	}); 
 		
 	// Politics Link
 	$('#primary-nav .politics').on('click', function(e){

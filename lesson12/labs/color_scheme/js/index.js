@@ -1,20 +1,30 @@
-$('#grayButton').click(switchGray);
-$('#whiteButton').click(switchWhite);
-$('#blueButton').click(switchBlue);
-$('#yellowButton').click(switchYellow);
+$("#switcher li").click(switchColor);
 
-function switchGray() {
-  $('body').attr('class', 'gray');
+function switchColor() {
+	var color = $(this).css('background-color');
+	// alert('hello world');
+	// console.log($(this).css('background-color'));
+	$('body').css('background-color', color);
 }
 
-function switchWhite() {
-  $('body').attr('class', 'white');
-}
 
-function switchBlue() {
-  $('body').attr('class', 'blue');
-}
+// $('#grayButton').click(switchGray);
+// $('#whiteButton').click(switchWhite);
+// $('#blueButton').click(switchBlue);
+// $('#yellowButton').click(switchYellow);
 
-function switchYellow() {
-  $('body').attr('class', 'yellow');
-}
+// function switchGray() {
+//   $('body').attr('class', 'gray');
+// }
+
+// function switchWhite() {
+//   $('body').attr('class', 'white');
+// }
+
+// function switchBlue() {
+//   $('body').attr('class', 'blue');
+// }
+
+// function switchYellow() {
+//   $('body').attr('class', 'yellow');
+// }
