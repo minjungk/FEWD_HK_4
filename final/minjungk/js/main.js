@@ -457,7 +457,11 @@ var Grid = (function() {
 			var heightPreview = winsize.height - this.$item.data( 'height' ) - marginExpanded,
 				itemHeight = winsize.height;
 
-			if( heightPreview < settings.minHeight ) {
+			// ykyuen: if the min-height is set, override the settings.minHeight
+			if (this.$item.data("min-height")) {
+				heightPreview = this.$item.data("min-height");
+				itemHeight = this.$item.data("min-height") + this.$item.data( 'height' ) + marginExpanded;
+			} else if( heightPreview < settings.minHeight ) {
 				heightPreview = settings.minHeight;
 				itemHeight = settings.minHeight + this.$item.data( 'height' ) + marginExpanded;
 			}
